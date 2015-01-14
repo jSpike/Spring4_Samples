@@ -30,7 +30,7 @@ public class HelloWorldController {
 	 */
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public String hello(
-			@RequestParam(required = true, value = "name") String name,
+			@RequestParam(required = true, value = "name", defaultValue="jSpike") String name,
 			Model model) {
 		model.addAttribute("name", name);
 		System.out.println("in controller::" + name);
