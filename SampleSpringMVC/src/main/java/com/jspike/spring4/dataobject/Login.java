@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.aravind.dataobject;
+package com.jspike.spring4.dataobject;
 
 /**
  * @author aravind

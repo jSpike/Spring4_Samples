@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.aravind.springmvc;
+package com.jspike.spring4.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.aravind.dataobject.Login;
+import com.jspike.spring4.dataobject.Login;
 
 /**
  * Controller that helps to fetch login details from jsp page
